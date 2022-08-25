@@ -1,0 +1,109 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-mvrck img {
+    height: 20px;
+    left: -35px;
+  }
+  .menu-mvrck {
+    left: 150px;
+  }
+  .menu-mvrck ul li a {
+    font-size: 12px;
+    margin: 1px;
+  }
+  .opsi-daftar strong {
+    font-size: 12px;
+    padding: 5px 20px;
+    top: -27px;
+    left: -110px;
+  }
+  .opsi-masuk button {
+    font-size: 12px;
+    padding: 3px 18px;
+    top: -27px;
+    left: -100px;
+  }
+  .welcome-mvrck h2 {
+    font-size: 20px;
+  }
+  .welcome-mvrck h3 {
+    font-size: 45px;
+    top: 8px;
+  }
+  .welcome-mvrck h4 {
+    font-size: 45px;
+  }
+  .welcome-mvrck h5 {
+    font-size: 12px;
+    top: 10px;
+  }
+  .welcome-mvrck h6 {
+    font-size: 15px;
+  }
+  .opsi-jelajah {
+    text-align: center;
+    color: #7f4303;
+  }
+  .halaman-profil img {
+    margin: 20px;
+  }
+  .halaman-profil p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .layanan-pertama {
+    margin: 100px;
+  }
+  .card-pertama {
+    width: 230px;
+    height: 280px;
+    margin: 30px;
+  }
+  .card-pertama .image-pertama {
+    width: 230px;
+    height: 260px;
+  }
+  .card-pertama .content-pertama strong {
+    font-size: 20px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama p {
+    font-size: 12px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama h2 a {
+    padding: 5px 25px;
+    font-size: 12px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama h3 a {
+    padding: 5px 25px;
+    font-size: 12px;
+    top: 53px;
+  }
+  .card-pertama .content-pertama h4 a {
+    padding: 5px 25px;
+    font-size: 12px;
+    top: 55px;
+  }
+  .block {
+    width: 180px;
+    height: 140px;
+    margin: 10px;
+  }
+  .card-body {
+    background-color: rgb(255, 248, 238);
+    border-radius: 20px;
+    height: 100px;
+  }
+  .card-body img {
+    height: 70px;
+    padding: 8px 8px;
+  }
+  .card-body h5 {
+    font-size: 16px;
+  }
+  .card-body span {
+    font-size: 12px;
+    position: relative;
+  }
+}

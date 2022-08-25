@@ -1,0 +1,181 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo-mvrck img {
+    height: 15px;
+    left: -35px;
+  }
+  .menu-mvrck ul {
+    position: relative;
+    left: 3000px;
+  }
+  .opsi-daftar {
+    position: relative;
+    left: 2000px;
+  }
+  .opsi-masuk {
+    position: relative;
+    left: 3000px;
+  }
+  .welcome-mvrck h2 {
+    font-size: 30px;
+    top: 1px;
+  }
+  .welcome-mvrck h3 {
+    font-size: 35px;
+  }
+  .welcome-mvrck h4 {
+    font-size: 35px;
+    top: -1mm;
+  }
+  .welcome-mvrck h5 {
+    font-size: 16px;
+    top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .welcome-mvrck h6 {
+    font-size: 20px;
+  }
+  .halaman-profil img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .profil-deskripsi p {
+    font-weight: 400;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .layanan-pertama {
+    gap: 0px;
+    margin-top: 100px;
+  }
+  .card-pertama {
+    width: 180px;
+    height: 280px;
+    margin: 20px;
+  }
+  .card-pertama .image-pertama {
+    width: 180px;
+    height: 260px;
+  }
+  .card-pertama .content-pertama strong {
+    font-size: 20px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama p {
+    font-size: 12px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama h2 a {
+    padding: 5px 25px;
+    font-size: 10px;
+    top: 10px;
+  }
+  .card-pertama .content-pertama h3 a {
+    padding: 5px 25px;
+    font-size: 10px;
+    top: 70px;
+  }
+  .card-pertama .content-pertama h4 a {
+    padding: 5px 25px;
+    font-size: 10px;
+    top: 75px;
+  }
+  .block {
+    width: 130px;
+    height: 140px;
+    margin: 5px;
+  }
+  .block:hover {
+    height: 250px;
+  }
+  .card-body {
+    background-color: rgb(255, 248, 238);
+    border-radius: 20px;
+    height: 100px;
+  }
+  .card-body img {
+    height: 70px;
+    padding: 8px 8px;
+  }
+  .card-body h5 {
+    font-size: 16px;
+  }
+  .card-body span {
+    font-size: 12px;
+  }
+  .card-body p {
+    font-size: 11px;
+    margin: 0px;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(-45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(-90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    right: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 25px;
+    right: 30px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 4;
+    animation: SlideDown 2.5s ease-out;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 200px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: rgb(254, 246, 226);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.25s;
+    z-index: 3;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+}
